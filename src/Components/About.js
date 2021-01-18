@@ -5,7 +5,8 @@ export default function About(props) {
         <div className='selectedTab'>
             <div className='close' onClick={props.handleClose}>&#10006;</div>
             <h3>About</h3>
-            <p className='tabText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus pulvinar elementum integer enim neque volutpat ac. Turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie. Feugiat vivamus at augue eget arcu dictum varius duis at. Aliquam sem fringilla ut morbi tincidunt. Urna duis convallis convallis tellus id interdum velit laoreet id. Egestas sed sed risus pretium quam vulputate. Turpis nunc eget lorem dolor. Nibh sed pulvinar proin gravida hendrerit lectus a. Non diam phasellus vestibulum lorem.</p>
+            <hr />
+            <p className='tabText'>We are a restaurant dedicated to modernity at any cost. If there is even an inkling of modernity we will pursure, consume, and bastardize it. We will stop at nothing until all sense of modernity is instilled deeply into our customers mind. When you come in, we want you to think "Wow, this is modern!". From our rich and wholesome, fairly traded and fairly old food we will blow you away with simple yet timeless creations from our all-foody chef staff. </p>
         </div>
     )
 }

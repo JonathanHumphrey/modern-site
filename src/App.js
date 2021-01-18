@@ -17,17 +17,19 @@ function App() {
 }
   return (
     <div className="App">
-      <Navigation
-        tab={tab}
-        setTab={setTab}
-      />
-      <div className='body'>
-        {
-          tab === '#menu' ? <Menu setTab={setTab} handleClose={handleClose}/> 
-          : tab === '#about' ? <About setTab={setTab} handleClose={handleClose}/> 
-            : tab ==='#contact' ? <Contact setTab={setTab} handleClose={handleClose}/> 
-              : null
-        }
+      <div className='wrapper'>
+        <Navigation
+          tab={tab}
+          setTab={setTab}
+        />
+        <div className='body'>
+          {
+            tab === '#menu' ? <Menu setTab={setTab} handleClose={handleClose}/> 
+            : tab === '#about' ? <About setTab={setTab} handleClose={handleClose}/> 
+              : tab ==='#contact' ? <Contact setTab={setTab} handleClose={handleClose}/> 
+                : null
+          }
+        </div>
       </div>
     </div>
   );

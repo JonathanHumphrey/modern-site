@@ -8,6 +8,7 @@ export default function Contact(props) {
         <div className='selectedTab'>
             <div className='close' onClick={props.handleClose}>&#10006;</div>
             <h3>Contact</h3>
+            <hr />
             <SocialIcon 
                 className='social' 
                 target='_blank' 

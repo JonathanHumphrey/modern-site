@@ -16,7 +16,6 @@ export default function Navigation({tab, setTab}) {
             <nav>
                 <ul>
                     <li>
-                        
                         <a onClick={handleClick} href='#menu' value='menu'>Menu</a>
                         <a onClick={handleClick} href='#about' value='about'>About</a>
                         <a onClick={handleClick} href='#contact' value ='contact'>Contact</a>
